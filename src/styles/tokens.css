@@ -1,0 +1,45 @@
+/*
+ * Rerack design tokens.
+ * Palette: gym-floor paper + ink, with bumper-plate colours used as
+ * wayfinding (each zone gets a plate colour) and signal yellow as the one
+ * action colour. Type: Archivo at narrow widths for signage, Atkinson
+ * Hyperlegible for reading.
+ */
+:root {
+  --paper: #f2ede2;
+  --paper-2: #e6dfcf;
+  --paper-3: #d8d0bd;
+  --paper-hi: #fffcf4;
+  --ink: #1c201e;
+  --ink-2: #474e49;
+  --ink-3: #626862;
+  --rubber: #2e3330;
+  --steel: #c3c7bd;
+
+  --plate-green: #277a4b;
+  --plate-blue: #2d5fae;
+  --plate-red: #cf452f;
+  --signal: #f2b92b;
+  --signal-deep: #d99a0b;
+
+  --good: #1f6e42;
+  --good-bg: #dcefd8;
+  --bad: #a83623;
+  --bad-bg: #f9e0d6;
+
+  --font-display: 'Archivo Variable', 'Archivo', 'Arial Narrow', system-ui, sans-serif;
+  --font-body: 'Atkinson Hyperlegible', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --r-sm: 4px;
+  --r: 7px;
+  --r-lg: 12px;
+  --line: 2px solid var(--ink);
+  --press: 0 4px 0 var(--ink);
+  --press-sm: 0 3px 0 var(--ink);
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  --focus: 0 0 0 3px var(--paper), 0 0 0 6px var(--plate-blue);
+
+  color-scheme: light;
+}
